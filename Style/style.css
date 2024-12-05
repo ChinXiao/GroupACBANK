@@ -586,6 +586,11 @@ body {
 .gridt-footer img{
     width: 100px;
 }
+.li-flex{
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+}
 @media screen and (max-width:768px){
   .nav-item{
     display: none;
@@ -602,8 +607,41 @@ body {
     padding: 0 4rem;
     right: 12rem;
   }
-  .flag>img{
-    max-width: 200px;
+  .flag-cam>img{
+    width: 50px;
   }
-
+  .nav-link{
+    font-size: 0.5rem;
+  }
+  #none-class{
+    display: none;
+  }
+  .image-slide{
+    width: 100%;
+    height: 250px;
+  }
+  .image-slide>img{
+    width: 100%;
+  }
+  .btn-container{
+    transform: translate(0px ,150px);
+    color: #003366;
+  }
+  .list-under-imageslide{
+    overflow: scroll;
+    scrollbar-width: 2rem;
+  }
+  .li-flex i{
+    transform: translate(-20px);
+  }
+  .nav-item>.li-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  .width-under-imageslide{
+    width: 160px;
+  }
+  
 }
