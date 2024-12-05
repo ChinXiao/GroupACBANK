@@ -404,9 +404,7 @@ body {
 }
 
 .link-video-ace img {
-    width: 100%; /* Responsive image */
-    height: 400px; /* Fixed height for images */
-    object-fit: cover; /* Maintain aspect ratio while covering the area */
+    width: 100%;
 }
 
 .link-video-ace a {
@@ -425,17 +423,6 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-    .grid-2x4 {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .grid-2x4 {
-        grid-template-columns: 1fr; /* 1 column on very small screens */
-    }
-}
 
 
 /* General container styles */
@@ -448,17 +435,16 @@ body {
 /* Row styling */
 .row {
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: space-between;
     gap: 5px;
 }
 
 /* Column styling */
+/* Responsive columns, 25% width minus gap */
 .col-md-3 {
-    flex: 1 1 calc(25% - 20px); /* Responsive columns, 25% width minus gap */
-    max-width: calc(30% - 20px);
+    max-width: 390px; 
     box-sizing: border-box;
-    height: 180px;
     padding: 15px;
     text-align: center;
     background: #7394b3;
@@ -473,7 +459,7 @@ body {
 
 /* Image styling */
 .col-md-3 img {
-    max-width: 100px;
+    width: 100px;
     height: auto;
     margin-bottom: 15px;
 }
@@ -591,6 +577,11 @@ body {
   align-items: center;
   margin-left: 0.5rem;
 }
+.width-under-imageslide{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
 @media screen and (max-width:768px){
   .nav-item{
     display: none;
@@ -629,19 +620,46 @@ body {
   }
   .list-under-imageslide{
     overflow: scroll;
-    scrollbar-width: 2rem;
+    width: 1000px;
   }
   .li-flex i{
     transform: translate(-20px);
   }
-  .nav-item>.li-flex{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-  }
   .width-under-imageslide{
-    width: 160px;
+    width: 530px;
+    overflow: scroll;
   }
-  
+  .width-icon{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-2x4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+  }
+  .scroll-footer{
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .col-md-3 h3{
+    font-size: 15px;
+  }
+  .col-md-3 p{
+    font-size: 12px;
+  }
+  .col-md-3 img{
+    width: 200px;
+  }
+  .link-video-ace>img{
+    width: 100%;
+  }
+  .col-md-3{
+    width: 100%;
+    height: 270px;
+  }
 }
