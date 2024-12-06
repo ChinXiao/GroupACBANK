@@ -68,6 +68,5 @@ allDots.forEach(function(dot){
       images[counter].style.animation = "prevIn 0.5s forwards";
     }
     pointerDot();
-  })
-  
+  }) 
 })

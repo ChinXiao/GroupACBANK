@@ -662,4 +662,9 @@ body {
     width: 100%;
     height: 270px;
   }
+  .footer-social{
+    display: flex;
+    overflow-x: scroll;
+    width: 400px;
+  }
 }
