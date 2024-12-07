@@ -895,8 +895,8 @@ p {
     display: none;
   }
   .img-show {
-    max-width: 900px;
-    max-height: 400px;
+    max-width: 500px;
+    max-height: 200px;
   }
   .img-show > img {
     padding: 0;
@@ -913,8 +913,22 @@ p {
   .credits-section2,
   .credit-services,.icon-menu {
     margin: 0 auto;
-    width: 100%;
-    
+    width: 100%; 
+  }
+  .deposits-section,.deposits-apply,.paragra,.paragrap-service,.deposits-section2,.deposits-services{
+    margin: 0;
+    width: auto;
+  }
+  .apply{
+    position: relative;
+    right: 9rem;
+  }
+  .breadcrumb{
+    display: flex;
+    align-items: center;
+  }
+  .breadcrumb>a{
+    font-size: 0.7rem;
   }
   .paragrap{
     padding: 0 2rem;
@@ -925,13 +939,14 @@ p {
   .layout-right{
     width: 100%;
     position: relative;
-    top: 7rem;
-    left: 12rem;
+    right: 62rem;
     margin: 0 auto;
-
   }
   .credits-section{
     margin: 2rem 0;
+  }
+  #title{
+    margin: 0;
   }
 }
 
