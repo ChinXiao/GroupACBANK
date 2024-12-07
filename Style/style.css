@@ -665,6 +665,6 @@ body {
   .footer-social{
     display: flex;
     overflow-x: scroll;
-    width: 400px;
+    width: 390px;
   }
 }

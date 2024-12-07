@@ -1034,8 +1034,11 @@ button:hover {
     width: 100%;
     position: relative;
     top: 7rem;
-    left: 10rem;
+    left: 12rem;
     margin: 0 auto;
 
+  }
+  .credits-section{
+    margin: 2rem 0;
   }
 }
