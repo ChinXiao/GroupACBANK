@@ -943,10 +943,12 @@ p {
   }
   .layout-right{
     width: 100%;
-    position: relative;
-    right: 57.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0 auto;
     padding: 0 3rem;
+
   }
   .deposits-services{
     margin: 0;
@@ -964,8 +966,7 @@ p {
 }
 @media screen and (max-width:768px) {
   .layout-right{
-    position: relative;
-    right: 61.5rem;
+    transform: translate(0vh);
   }
   
 }
