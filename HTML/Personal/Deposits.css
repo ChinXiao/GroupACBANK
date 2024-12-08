@@ -962,4 +962,11 @@ p {
     right: 5rem;
   }
 }
+@media screen and (max-width:768px) {
+  .layout-right{
+    position: relative;
+    right: 61.5rem;
+  }
+  
+}
 
