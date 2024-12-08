@@ -796,6 +796,11 @@ p {
   .title {
     font-size: 20px;
   }
+  .list-nav{
+    position: relative;
+    margin: 0 auto;
+    right: 3rem;
+  }
 
   .credits-title {
     font-size: 20px;
@@ -939,14 +944,22 @@ p {
   .layout-right{
     width: 100%;
     position: relative;
-    right: 62rem;
+    right: 57.5rem;
     margin: 0 auto;
+    padding: 0 3rem;
+  }
+  .deposits-services{
+    margin: 0;
   }
   .credits-section{
     margin: 2rem 0;
   }
   #title{
     margin: 0;
+  }
+  .footer-info{
+    position: relative;
+    right: 5rem;
   }
 }
 
