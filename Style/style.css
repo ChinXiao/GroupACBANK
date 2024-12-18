@@ -11,7 +11,17 @@ body {
     padding: 0;
     background-color: #003366;
   }
-  
+  .downapp{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: white;
+    background-color: #074079;
+  }
+  .downapp:hover{
+    background-color: #04274a;
+  }
   .navigation {
     background-color: #003366;
     box-shadow: 0.5px 6px 9px black;
